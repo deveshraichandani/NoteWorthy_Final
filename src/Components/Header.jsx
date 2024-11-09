@@ -1,12 +1,12 @@
 import React from "react";
+import ListAltIcon from '@mui/icons-material/ListAlt';
 
 function Header() {
   return (
-    <div>
-      <header>
-        <h1>NoteWorthy</h1>
-      </header>
-    </div>
+    <header>
+      <h1> <ListAltIcon />NoteWorthy</h1>
+    </header>
   );
 }
+
 export default Header;
